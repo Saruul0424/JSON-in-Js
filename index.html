@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>Convert a Javascript object into a JSONA string, 
+        and send it away server</h2>
+    <p id="result"></p>
+    <script>
+        var myOBJ ={ name:"Riaya", age:12 , grade:7};
+         var   myJSON = json.stringify( myOBJ);
+         var newObj = json.parse( myOBJ);
+         document.getElementById("result").innerHTML = newObj.name ; 
+
+    </script>
+</body>
+</html>
